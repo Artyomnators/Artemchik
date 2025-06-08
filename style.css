@@ -1,0 +1,58 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 28px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content img {
+    max-width: 100px;
+}
+body {
+    margin-top: 100px;
+}
+
+.image-button1 {
+  width: 177px;
+  height: 50px;
+  border: none;
+  top: 45px;
+  right: 100px;
+  position: absolute;
+  background-image: url("login.png");
+  background-size: cover;
+}
+.image-button2 {
+  width: 177px;
+  height: 50px;
+  top: 45px;
+  border: none;
+  right: 300px;
+  position: absolute;
+  background-image: url("sign2.png");
+  background-size: cover;
+}
+.image-button1:hover {
+  opacity: 0.8;
+}
+
+.image-button1:active {
+  transform: scale(0.95);
+}
+.image-button2:hover {
+  opacity: 0.8;
+}
+
+.image-button2:active {
+  transform: scale(0.95);
+}
